@@ -1,0 +1,8 @@
+selenium
+phantomjs
+lxml
+requests
+pyquery
+beautifulsoup4
+jupyter
+

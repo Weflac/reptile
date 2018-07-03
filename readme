@@ -1,0 +1,23 @@
+# 爬虫，抓取网络数据
+
+1.所需要的安装包，
+   通过 pip install -r requirements.txt 命令安装所需要的包
+
+   内置库：
+      # urllib
+      # re
+   请求库：
+     # requests  更方便的请求库
+     # selenium  通过浏览器获得数据
+     # phantomjs 无界面浏览器，通过PhantomJS获取数据
+  解析库：
+     # pyquery   强大而又灵活的网页解析库，和jquery很像的库
+     # lxml      网页解析
+     # beautifulsoup4 依赖lxml库
+     # jupyter   可以理解为记事本，运行在网页端，可以在记事本里面写一些代码，调试，在线运行，markdown
+
+  存储库：
+     # pymysql
+     # pymongo
+     # redis
+
