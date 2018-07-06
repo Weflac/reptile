@@ -1,5 +1,5 @@
 
-from pyquery_demo import PyQuery as pq
+from pyquery import PyQuery as pq
 
 doc = pq('<html>hello world</html>')
 

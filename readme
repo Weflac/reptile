@@ -21,3 +21,34 @@
      # pymongo
      # redis
 
+2.分布式爬虫，
+    安装  pip install Scrapy
+    依赖库：
+        # wheel  wheel文件后缀whl
+        # lxml
+        # PyOpenssl
+        # Twisted
+        # Pywin32    https://sourceforge.net/projects/pywin32/files/pywin32/Build%20220/
+
+     创建项目：
+        在cmd命令输入scrapy
+            Available commands:
+              bench         Run quick benchmark test
+              fetch         Fetch a URL using the Scrapy downloader
+              genspider     Generate new spider using pre-defined templates
+              runspider     Run a self-contained spider (without creating a project)
+              settings      Get settings values
+              shell         Interactive scraping console
+              startproject  Create new project
+              version       Print Scrapy version
+              view          Open URL in browser, as seen by Scrapy
+
+       1. scrapy startproject quotetutorial 创建项目：quotetutorial
+       2. scrapy genspider quotes quotes.toscrape.com   创建爬取网站： quotes.toscrape.com
+
+3.ORC图片识别
+    安装 pip install pytesseract
+    依赖库：
+        # pillow
+        # tesseract ocr     #windwos需要下载安装程序：http://code.google.com/p/tesseract-ocr/
+

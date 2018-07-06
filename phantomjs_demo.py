@@ -1,4 +1,4 @@
-from selenium_demo import webdriver
+from selenium import webdriver
 
 driver = webdriver.PhantomJS()
 driver.get("http://www.python.org")

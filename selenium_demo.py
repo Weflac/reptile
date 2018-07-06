@@ -6,8 +6,8 @@
 # print(driver.page_source)
 
 
-from selenium_demo import webdriver
-from selenium_demo.webdriver.common.keys import Keys
+from selenium import webdriver
+from selenium.webdriver.common.keys import Keys
 
 driver = webdriver.Firefox()
 driver.get("http://www.python.org")
