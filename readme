@@ -20,6 +20,9 @@
      # pymysql
      # pymongo
      # redis
+  
+  图表库：
+     # pyecharts  百度echarts
 
 2.分布式爬虫，
     安装  pip install Scrapy
